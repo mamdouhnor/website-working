@@ -13,7 +13,7 @@ const products = [
     color: 'primary',
     purity: '99.5%+',
     packaging: 'Bulk, 50lb bags',
-    image: `${process.env.PUBLIC_URL}/images/products/production.jpg`
+    image: `${process.env.PUBLIC_URL}./images/products/production.jpg`
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const products = [
     color: 'emerald',
     purity: '99.9%+',
     packaging: '25lb, 50lb bags',
-    image: `${process.env.PUBLIC_URL}/images/products/salt_hand.jpg`
+    image: `${process.env.PUBLIC_URL}./images/products/salt_hand.jpg`
   },
   {
     id: 3,
