@@ -13,7 +13,7 @@ const products = [
     color: 'primary',
     purity: '99.5%+',
     packaging: 'Bulk, 50lb bags',
-    image: `${process.env.PUBLIC_URL}./images/products/production.jpg`
+    image: `${process.env.PUBLIC_URL}/images/products/production.jpg`
   },
   {
     id: 2,
