@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src={`${process.env.PUBLIC_URL}/images/mrmn_logo.PNG`} alt="MRMN Salt Logo" className="logo-image" />
+          <img src="/images/mrmn_logo.PNG" alt="MRMN Salt Logo" className="logo-image" />
           <span className="logo-text">MRMN SALT</span>
         </Link>
         
