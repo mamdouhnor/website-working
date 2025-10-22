@@ -127,8 +127,8 @@ const Home = () => {
             </div>
             <div className="services-image">
               <div className="salt-showcase">
-                <img src={`${process.env.PUBLIC_URL}./images/products/bo7era.jpg`} alt="Premium Salt Products" className="showcase-main" />
-                <img src={`${process.env.PUBLIC_URL}./images/products/bo7era2.jpg`} alt="Salt Production" className="showcase-secondary" />
+                <img src={`${process.env.PUBLIC_URL}/images/products/bo7era.jpg`} alt="Premium Salt Products" className="showcase-main" />
+                <img src={`${process.env.PUBLIC_URL}/images/products/bo7era2.jpg`} alt="Salt Production" className="showcase-secondary" />
               </div>
             </div>
           </div>
