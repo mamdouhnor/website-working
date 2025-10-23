@@ -13,3 +13,7 @@ git push -u origin main
 git remote add origin https://github.com/mamdouhnor/MRMNSALT-Website.git
 git branch -M main
 git push -u origin main
+
+git add .
+git commit -m "Fix Vercel deployment: move background images to inline styles"
+git push origin main
