@@ -13,7 +13,7 @@
     linear-gradient(135deg, rgba(30, 58, 138, 0.95) 0%, rgba(37, 99, 235, 0.9) 50%, rgba(6, 182, 212, 0.85) 100%);
   background-image: 
     linear-gradient(135deg, rgba(30, 58, 138, 0.95) 0%, rgba(37, 99, 235, 0.9) 50%, rgba(6, 182, 212, 0.85) 100%),
-    url('%PUBLIC_URL%/images/products/bo7era.jpg');
+    url('/images/products/bo7era.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

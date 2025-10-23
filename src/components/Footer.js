@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section footer-brand">
           <div className="footer-logo">
-            <img src={`${process.env.PUBLIC_URL}/images/mrmn_logo.PNG`} alt="MRMN Salt Logo" />
+            <img src="/images/mrmn_logo.PNG" alt="MRMN Salt Logo" />
             <h3>MRMN SALT</h3>
           </div>
           <p>Your trusted partner in premium salt brokerage services, connecting quality producers with businesses worldwide.</p>
