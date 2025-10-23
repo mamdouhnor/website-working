@@ -3,10 +3,14 @@ import { Link } from 'react-router-dom';
 import '../styles/About.css';
 
 const About = () => {
+  const aboutHeroStyle = {
+    backgroundImage: `linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(30, 64, 175, 0.95) 100%), url('/images/products/production.jpg')`
+  };
+
   return (
     <div className="about-page">
       {/* Hero Section */}
-      <section className="about-hero">
+      <section className="about-hero" style={aboutHeroStyle}>
         <div className="container">
           <h1>About MRMNSALT</h1>
           <p className="subtitle">Your Trusted Partner in Salt Brokerage</p>

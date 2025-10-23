@@ -4,10 +4,14 @@ import { FaGlobeAmericas, FaShieldAlt, FaTruck, FaCheckCircle, FaArrowRight, FaA
 import '../styles/Home.css';
 
 const Home = () => {
+  const heroStyle = {
+    backgroundImage: `linear-gradient(135deg, rgba(30, 58, 138, 0.95) 0%, rgba(37, 99, 235, 0.9) 50%, rgba(6, 182, 212, 0.85) 100%), url('/images/products/bo7era.jpg')`
+  };
+
   return (
     <div className="home">
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero" style={heroStyle}>
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="hero-badge">your business partner</div>

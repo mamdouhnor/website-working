@@ -51,10 +51,14 @@ const products = [
 ];
 
 const Products = () => {
+  const productsHeroStyle = {
+    backgroundImage: `linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(30, 64, 175, 0.95) 100%), url('/images/products/salt02.jpg')`
+  };
+
   return (
     <div className="products-page">
       {/* Hero Header */}
-      <section className="products-hero">
+      <section className="products-hero" style={productsHeroStyle}>
         <div className="container">
           <div className="hero-content">
             <h1>Premium Salt Products</h1>
