@@ -30,10 +30,10 @@ const About = () => {
               </p>
             </div>
             <div className="story-image">
-              <img src="/images/products/production.jpg" alt="Salt Production" className="story-main-image" />
+              <img src={`${process.env.PUBLIC_URL}/images/products/production.jpg`} alt="Salt Production" className="story-main-image" />
               <div className="story-image-grid">
-                <img src="/images/products/salt_hand.jpg" alt="Quality Salt" className="story-grid-image" />
-                <img src="/images/salt.jfif" alt="Salt Product" className="story-grid-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/products/salt_hand.jpg`} alt="Quality Salt" className="story-grid-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/salt.jfif`} alt="Salt Product" className="story-grid-image" />
               </div>
             </div>
           </div>

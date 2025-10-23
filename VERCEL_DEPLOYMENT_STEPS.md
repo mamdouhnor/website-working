@@ -31,16 +31,17 @@ git add .
 git commit -m "Initial commit - MRMNSALT website"
 ```
 
-### Step 2: Push to GitHub
+### Step 2: Push to GitHub (Private Repository)
 
-**Option A: Create New Repository via GitHub Website**
+**Option A: Create New Private Repository via GitHub Website**
 
 1. Go to [github.com](https://github.com) and login
 2. Click the **+** icon → **New repository**
 3. Name it: `mrmnsalt-website` (or your choice)
-4. **DO NOT** initialize with README, .gitignore, or license
-5. Click **Create repository**
-6. Copy the repository URL (e.g., `https://github.com/yourusername/mrmnsalt-website.git`)
+4. **IMPORTANT: Set to PRIVATE** ← Click this option
+5. **DO NOT** initialize with README, .gitignore, or license
+6. Click **Create repository**
+7. Copy the repository URL (e.g., `https://github.com/yourusername/mrmnsalt-website.git`)
 
 **Then run these commands:**
 
