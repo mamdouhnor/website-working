@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaMountain, FaDroplet, FaCheckCircle, FaArrowRight, FaCertificate } from 'react-icons/fa';
+import { FaMountain, FaDroplet, FaCheckCircle, FaArrowRight, FaCertificate, FaUtensils } from 'react-icons/fa';
 import '../styles/Products.css';
 
 const products = [
@@ -27,6 +27,18 @@ const products = [
     packaging: '40lb bags, Bulk quantities',
     specs: 'US Market Authorized - NSF Certified',
     image: `${process.env.PUBLIC_URL}/images/products/production.jpg`
+  },
+  {
+    id: 3,
+    name: 'Table Salt',
+    description: 'Premium food-grade table salt refined for culinary and food processing applications. Meets all FDA requirements and is authorized for use throughout the US market. Our table salt is iodized and anti-caking treated for optimal performance in food preparation and commercial food production.',
+    applications: ['Food Preparation', 'Food Processing', 'Retail Distribution', 'Commercial Kitchens'],
+    icon: FaUtensils,
+    color: 'emerald',
+    purity: '99.9%+',
+    packaging: '25lb bags, 50lb bags, Bulk quantities',
+    specs: 'US Market Authorized - FDA Approved',
+    image: `${process.env.PUBLIC_URL}/images/products/salt_hand.jpg`
   }
 ];
 
