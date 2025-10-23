@@ -1,52 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaIndustry, FaUtensils, FaWater, FaMountain, FaCheckCircle, FaArrowRight } from 'react-icons/fa';
+import { FaMountain, FaDroplet, FaCheckCircle, FaArrowRight, FaCertificate } from 'react-icons/fa';
 import '../styles/Products.css';
 
 const products = [
   {
     id: 1,
-    name: 'Industrial Salt',
-    description: 'High-purity salt for industrial applications including water treatment, chemical processing, and manufacturing operations.',
-    applications: ['Water Treatment', 'Chemical Processing', 'De-icing', 'Manufacturing'],
-    icon: FaIndustry,
+    name: 'Natural Rock Salt',
+    description: 'Premium natural rock salt for de-icing, snow removal, industrial and agricultural use. Sourced from pristine deposits and authorized for use across the entire US market. Our rock salt meets all federal and state specifications for road maintenance, agricultural applications, and industrial processes.',
+    applications: ['De-icing & Snow Removal', 'Road Maintenance', 'Industrial Use', 'Agricultural Applications'],
+    icon: FaMountain,
     color: 'primary',
-    purity: '99.5%+',
-    packaging: 'Bulk, 50lb bags',
-    image: `${process.env.PUBLIC_URL}/images/products/production.jpg`
+    purity: '98%+ Natural',
+    packaging: 'Bulk, 50lb bags, Custom quantities',
+    specs: 'US Market Authorized - EPA & DOT Compliant',
+    image: `${process.env.PUBLIC_URL}/images/products/salt03.jpg`
   },
   {
     id: 2,
-    name: 'Food Grade Salt',
-    description: 'Premium quality, certified food-grade salt meeting all FDA requirements for food processing and culinary applications.',
-    applications: ['Food Processing', 'Restaurants', 'Retail', 'Bakeries'],
-    icon: FaUtensils,
-    color: 'emerald',
-    purity: '99.9%+',
-    packaging: '25lb, 50lb bags',
-    image: `${process.env.PUBLIC_URL}/images/products/salt_hand.jpg`
-  },
-  {
-    id: 3,
-    name: 'Sea Salt',
-    description: 'Naturally harvested sea salt with rich mineral content, perfect for gourmet cooking and health-conscious applications.',
-    applications: ['Gourmet Cooking', 'Food Industry', 'Health & Wellness', 'Spa Products'],
-    icon: FaWater,
+    name: 'Industrial Salt Tablets',
+    description: 'High-purity pressed salt tablets ideal for water softening, treatment systems, and industrial applications. Engineered for optimal performance in water treatment systems nationwide. Authorized and certified for all US market applications with guaranteed purity and consistency.',
+    applications: ['Water Softening', 'Treatment Systems', 'Industrial Applications', 'Residential & Commercial'],
+    icon: FaCertificate,
     color: 'cyan',
-    purity: '98%+ Natural',
-    packaging: 'Custom sizes',
-    image: `${process.env.PUBLIC_URL}/images/products/salt02.jpg`
-  },
-  {
-    id: 4,
-    name: 'Rock Salt',
-    description: 'Natural rock salt mined from ancient deposits, ideal for water softening, animal nutrition, and winter road maintenance.',
-    applications: ['Water Softening', 'Animal Feed', 'De-icing', 'Industrial Use'],
-    icon: FaMountain,
-    color: 'teal',
-    purity: '98%+',
-    packaging: 'Bulk, 80lb bags',
-    image: `${process.env.PUBLIC_URL}/images/products/salt03.jpg`
+    purity: '99.5%+',
+    packaging: '40lb bags, Bulk quantities',
+    specs: 'US Market Authorized - NSF Certified',
+    image: `${process.env.PUBLIC_URL}/images/products/production.jpg`
   }
 ];
 
@@ -61,8 +41,8 @@ const Products = () => {
       <section className="products-hero" style={productsHeroStyle}>
         <div className="container">
           <div className="hero-content">
-            <h1>Premium Salt Products</h1>
-            <p>High-quality salt solutions for every industry and application</p>
+            <h1>US Market Authorized Salt Products</h1>
+            <p>Premium salt solutions certified for nationwide use in de-icing, water treatment, and industrial applications</p>
           </div>
         </div>
       </section>
@@ -93,6 +73,11 @@ const Products = () => {
                     <div className="spec-item">
                       <strong>Packaging:</strong> {product.packaging}
                     </div>
+                    {product.specs && (
+                      <div className="spec-item">
+                        <strong>Certification:</strong> {product.specs}
+                      </div>
+                    )}
                   </div>
                   
                   <div className="applications">
