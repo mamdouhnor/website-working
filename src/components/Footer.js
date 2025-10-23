@@ -9,7 +9,6 @@ const Footer = () => {
         <div className="footer-section footer-brand">
           <div className="footer-logo">
             <img src="/images/mrmn_logo.PNG" alt="MRMN Salt Logo" />
-            <h3>MRMN SALT</h3>
           </div>
           <p>Your trusted partner in premium salt brokerage services, connecting quality producers with businesses worldwide.</p>
         </div>
@@ -29,6 +28,7 @@ const Footer = () => {
           <p><i className="fas fa-envelope"></i> info@mrmnsalt.com</p>
           <p><i className="fas fa-phone"></i> +1 (916) 507-7566</p>
           <p><i className="fas fa-map-marker-alt"></i> 3953 La Honda Way<br />Carmichael, CA 95608</p>
+          <p><i className="fab fa-whatsapp"></i> <strong>Complaints:</strong> 01006046050 (WhatsApp Only)</p>
         </div>
       </div>
       

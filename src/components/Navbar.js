@@ -10,7 +10,6 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <img src="/images/mrmn_logo.PNG" alt="MRMN Salt Logo" className="logo-image" />
-          <span className="logo-text">MRMN SALT</span>
         </Link>
         
         <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
