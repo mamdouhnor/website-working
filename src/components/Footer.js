@@ -28,7 +28,7 @@ const Footer = () => {
           <p><i className="fas fa-envelope"></i> info@mrmnsalt.com</p>
           <p><i className="fas fa-phone"></i> +1 (916) 507-7566</p>
           <p><i className="fas fa-map-marker-alt"></i> 3953 La Honda Way<br />Carmichael, CA 95608</p>
-          <p><i className="fab fa-whatsapp"></i> <strong>Complaints:</strong> 01006046050 (WhatsApp Only)</p>
+          <p><i className="fab fa-whatsapp"></i> <strong>Complaints:</strong> +20 100 604 6050 (WhatsApp Only)</p>
         </div>
       </div>
       
