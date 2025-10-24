@@ -34,10 +34,10 @@ const About = () => {
               </p>
             </div>
             <div className="story-image">
-              <img src={`${process.env.PUBLIC_URL}/images/products/production.jpg`} alt="Salt Production" className="story-main-image" />
+              <img src={`${process.env.PUBLIC_URL}/images/products/bo7era.jpg`} alt="Salt Production Facility" className="story-main-image" />
               <div className="story-image-grid">
-                <img src={`${process.env.PUBLIC_URL}/images/products/salt_hand.jpg`} alt="Quality Salt" className="story-grid-image" />
-                <img src={`${process.env.PUBLIC_URL}/images/salt.jfif`} alt="Salt Product" className="story-grid-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/products/deicing-salt.jpg`} alt="De-icing Salt Products" className="story-grid-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/products/refined-salt.jpg`} alt="Refined Salt Quality" className="story-grid-image" />
               </div>
             </div>
           </div>
